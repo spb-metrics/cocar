@@ -1,0 +1,101 @@
+<html>
+<!-- /*
+    Este arquivo é parte do programa COCAR
+
+
+
+    COCAR é um software livre; você pode redistribui-lo e/ou 
+
+    modifica-lo dentro dos termos da Licença Pública Geral GNU como 
+
+    publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+
+    Licença.
+
+
+
+    Este programa é distribuido na esperança que possa ser  util, 
+
+    mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
+
+    MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+
+    Licença Pública Geral GNU para maiores detalhes (GPL2.txt).
+
+
+
+    Você deve ter recebido uma cópia da Licença Pública Geral GNU
+
+    junto com este programa, se não, escreva para a Fundação do Software
+
+    Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+*/
+-->
+<head>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style type=text/css>
+body
+	{
+		scrollbar-face-color: white; 
+		scrollbar-shadow-color: grey; 
+		scrollbar-highlight-color: white; 
+		scrollbar-3dlight-color: grey; 
+		scrollbar-darkshadow-color: white;
+		scrollbar-track-color: #ffffff; 
+		scrollbar-arrow-color: #c0c0c0;
+	}
+
+.acessos
+	{
+		border: #F58735 1px solid;  
+		FONT-FAMILY: Verdana, Arial; 
+		FONT-SIZE: 9pt; 
+		FONT-WEIGHT: bold
+	}
+</style>
+
+<script language="javascript">
+function muda_pagina(file1,file2)
+{
+	parent.frames[1].location.href=file1;
+	parent.frames[2].location.href=file2;
+}
+
+</script>
+</head>
+
+<BODY WIDHT=50% topmargin="0" leftmargin="0" background="imagens/fundoko.gif"> 
+<P ALIGN="CENTER">
+<map name="FPMap0">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=AM','verifica_alarme.php?uf=AM');" shape="rect" 	coords="112, 94, 148, 114"	title="Amazonas">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=PA','verifica_alarme.php?uf=PA');" shape="rect" 	coords="241, 102, 271, 123"	title="Pará">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=AC','verifica_alarme.php?uf=AC');" shape="rect" 	coords="43, 161, 74, 181"	title="Acre">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=RO','verifica_alarme.php?uf=RO');" shape="rect" 	coords="129, 177, 160, 198"	title="Rondônia">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=MT','verifica_alarme.php?uf=MT');"  shape="rect" 	coords="209, 199, 241, 222"	title="Mato Grosso">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=MS','verifica_alarme.php?uf=MS');" shape="rect"	coords="225, 281, 259, 302"	title="Mato Grosso do Sul">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=SP','verifica_alarme.php?uf=SP');" shape="rect" 	coords="289, 303, 319, 323"	title="São Paulo">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=RS','verifica_alarme.php?uf=RS');"  shape="rect" 	coords="246, 386, 277, 406"	title="Rio Grande do Sul">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=SC','verifica_alarme.php?uf=SC');"  shape="rect" 	coords="275, 361, 300, 379"	title="Santa Catarina">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=PR','verifica_alarme.php?uf=PR');"  shape="rect" 	coords="260, 332, 289, 350"	title="Paraná">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=RJ','verifica_alarme.php?uf=RJ');"  shape="rect" 	coords="360, 311, 390, 331"	title="Rio de Janeiro">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=MG','verifica_alarme.php?uf=MG');"  shape="rect" 	coords="337, 267, 367, 286"	title="Minas Gerais">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=ES','verifica_alarme.php?uf=ES');"  shape="rect"	coords="386, 279, 413, 299"	title="Espírito Santo">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=GO','verifica_alarme.php?uf=GO');"  shape="rect" 	coords="273, 245, 304, 264"	title="Goiás">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=DF','verifica_alarme.php?uf=DF');"  shape="rect" 	coords="300, 216, 330, 235"	title="Distrito Federal">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=BA','verifica_alarme.php?uf=BA');"  shape="rect" 	coords="370, 198, 398, 218"	title="Bahia">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=RR','verifica_alarme.php?uf=RR');"  shape="rect" 	coords="145, 26, 178, 48"	title="Roraima">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=AP','verifica_alarme.php?uf=AP');"  shape="rect" 	coords="256, 37, 287, 59"	title="Amapá">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=MA','verifica_alarme.php?uf=MA');"  shape="rect" 	coords="330, 112, 363, 133"	title="Maranhão">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=SE','verifica_alarme.php?uf=SE');"  shape="rect" 	coords="432, 183, 457, 198"	title="Sergipe">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=PI','verifica_alarme.php?uf=PI');"  shape="rect" 	coords="369, 140, 394, 160"	title="Piauí">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=CE','verifica_alarme.php?uf=CE');"  shape="rect" 	coords="400, 108, 428, 128"	title="Ceará">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=AL','verifica_alarme.php?uf=AL');"  shape="rect" 	coords="447, 167, 471, 181"	title="Alagoas">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=PE','verifica_alarme.php?uf=PE');"  shape="rect" 	coords="454, 150, 481, 164"	title="Pernambuco">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=PB','verifica_alarme.php?uf=PB');"  shape="rect" 	coords="452, 135, 475, 149"	title="Paraíba">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=RN','verifica_alarme.php?uf=RN');"  shape="rect" 	coords="436, 119, 464, 135"	title="Rio Grande do Norte">
+	<area href="javascript:muda_pagina('mn_aps.php?uf=TO','verifica_alarme.php?uf=TO');"  shape="rect" 	coords="298, 171, 327, 193"	title="Tocantins">
+</map><img align="middle" SRC="imagens/mapabr.gif" usemap="#FPMap0" border="0" width="500" height="441">
+
+<p ALIGN="CENTER"><span style="position: absolute; left: 65%; top: 28"><img border="0" src="imagens/ajuda_map.gif"></span></p>

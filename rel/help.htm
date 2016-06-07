@@ -1,0 +1,106 @@
+<html>
+<!--
+/*
+    Este arquivo ï¿½ parte do programa COCAR
+
+
+
+    COCAR ï¿½ um software livre; vocï¿½ pode redistribui-lo e/ou
+
+    modifica-lo dentro dos termos da Licenï¿½a Pï¿½blica Geral GNU como
+
+    publicada pela Fundaï¿½ï¿½o do Software Livre (FSF); na versï¿½o 2 da
+
+    Licenï¿½a.nt
+
+
+
+    Este programa ï¿½ distribuido na esperanï¿½a que possa ser  util,66"
+
+    mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAï¿½ï¿½O a qualquer
+
+    MERCADO ou APLICAï¿½ï¿½O EM PARTICULAR. Veja a
+
+    Licenï¿½a Pï¿½blica Geral GNU para maiores detalhes (GPL2.txt).
+
+
+
+    Vocï¿½ deve ter recebido uma cï¿½pia da Licenï¿½a Pï¿½blica Geral GNU
+
+    junto com este programa, se nï¿½o, escreva para a Fundaï¿½ï¿½o do Software
+
+    Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+*/
+
+-->
+
+
+<head>
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Parâmetro</title>
+</head>
+
+<body>
+
+<table border="1" width="99%">
+  <tr>
+    <td width="25%" align="center" bgcolor="#99CCFF"><font face="Arial" size="3"><b>Parâmetro</b></font></td>
+    <td width="75%" align="center" bgcolor="#99CCFF"><font face="Arial" size="3"><b>Descrição</b></font></td>
+  </tr>
+  <tr>
+    <td width="25%">
+      <p align="left"><font face="Arial" size="3" color="#0000FF"><b>Taxa 95%
+      das amostras</b></font></td>
+    <td width="75%">
+      <p align="left"><font face="Arial" size="3">Valor max (em bps) abaixo do
+      qual encontram-se 95% das amostras, ou seja, podemos dizer que 95% do
+      tempo ou das amostras atingiram no máximo esse valor. Metodologia de
+      cálculo:</font></p>
+      <blockquote>
+        <p align="left"><font face="Arial" size="3">- são definidas diversas
+        faixas de freqüência, por ex: 0 até 16kbps, de 16kbps até 32 kbps e
+        assim por diante, com vista a termos uma abrangência de taxas até
+        chegar a 2M;</font></p>
+        <p align="left"><font face="Arial" size="3">- é verificado o valor de
+        cada amostra no intervalo de 07:00 as 19:00 (*), e incrementado um
+        contador nas diversas faixas configuradas;</font></p>
+        <p align="left"><font face="Arial" size="3">- ao término é verificado&nbsp;
+        em que faixa encontra-se 95% das amostras</font></p>
+      </blockquote>
+      <p align="left"><font face="Arial" size="3">(*) - 07:00 às 19:00, 1
+      amostra por minuto , um total de 12 horas = 60 x 12 = 720 amostras</font></td>
+  </tr>
+  <tr>
+    <td width="25%"><font face="Arial" size="3" color="#0000FF"><b>Volume </b></font></td>
+    <td width="75%"><font face="Arial" size="3">Total em Gigabytes trafegados
+      diariamente no circuito.</font></td>
+  </tr>
+  <tr>
+    <td width="25%"><font face="Arial" size="3" color="#0000FF"><b>HMM no Dia</b></font></td>
+    <td width="75%"><font face="Arial" size="3">Início da hora de maior
+      movimento (trafego) no período de 00:00 às 23:59 (dia)</font></td>
+  </tr>
+  <tr>
+    <td width="25%"><font face="Arial" size="3" color="#0000FF"><b>HMM no
+      Período</b></font></td>
+    <td width="75%"><font face="Arial" size="3">Início da hora de maior
+      movimento (trafego) no período de 07:00 às 19:00</font></td>
+  </tr>
+  <tr>
+    <td width="25%"><font face="Arial" size="3" color="#0000FF"><b>Média -
+      Taxa95% - Máximo</b></font></td>
+    <td width="75%"><font face="Arial" size="3">Gráfico comparativo com valores
+      diários da Média, Taxa95% e o Máximo de trafego do link no
+      período&nbsp; - 07:00 às 19:00</font>
+      <p align="center"><img border="0" src="help1.1.gif" width="166" height="188"></p>
+      <p>&nbsp;</td>
+  </tr>
+</table>
+
+</body>
+
+</html>
